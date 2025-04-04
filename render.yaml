@@ -1,0 +1,10 @@
+
+services:
+  - type: web
+    name: telegram-sticker-bot
+    env: python
+    buildCommand: ""
+    startCommand: "python bot.py"
+    envVars:
+      - key: BOT_TOKEN
+        value: PASTE_YOUR_BOT_TOKEN_HERE
